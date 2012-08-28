@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<subscriptions>
+  <subscription>
+    <type>FinansieltSystem.Messages.KøbBogført, FinansieltSystem.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</type>
+    <subscriptionEntry>kredistatus.input@WIN-HGI8L25TU8J</subscriptionEntry>
+  </subscription>
+</subscriptions>

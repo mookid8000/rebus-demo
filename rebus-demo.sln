@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinansieltSystem", "FinansieltSystem\FinansieltSystem.csproj", "{F7188D84-4821-470E-8FBD-6D6EABC818AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinansieltSystem.Messages", "FinansieltSystem.Messages\FinansieltSystem.Messages.csproj", "{598BF894-BA92-4166-A05B-80E94671D837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kernedomæneagtige ting", "kernedomæneagtige ting", "{4446D7BB-6091-45FC-8410-B8629332EE09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "udenomsting", "udenomsting", "{F43FDB1D-F9E8-499A-892C-5A47A5E2EDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kreditstatus", "Kreditstatus\Kreditstatus.csproj", "{CD6E06F3-4ECB-4483-A32A-0E23679E438E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kreditbandit", "Kreditbandit\Kreditbandit.csproj", "{21BD40BA-4972-4FA8-AFCD-075EBABEF913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{388DB909-94BD-44AC-BB99-A2C189132396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kreditbandit.Messages", "Kreditbandit.Messages\Kreditbandit.Messages.csproj", "{030DF833-BF27-40C7-B9CB-A0A74E5E26B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7188D84-4821-470E-8FBD-6D6EABC818AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7188D84-4821-470E-8FBD-6D6EABC818AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7188D84-4821-470E-8FBD-6D6EABC818AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7188D84-4821-470E-8FBD-6D6EABC818AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598BF894-BA92-4166-A05B-80E94671D837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598BF894-BA92-4166-A05B-80E94671D837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598BF894-BA92-4166-A05B-80E94671D837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598BF894-BA92-4166-A05B-80E94671D837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6E06F3-4ECB-4483-A32A-0E23679E438E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6E06F3-4ECB-4483-A32A-0E23679E438E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6E06F3-4ECB-4483-A32A-0E23679E438E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6E06F3-4ECB-4483-A32A-0E23679E438E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BD40BA-4972-4FA8-AFCD-075EBABEF913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BD40BA-4972-4FA8-AFCD-075EBABEF913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BD40BA-4972-4FA8-AFCD-075EBABEF913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BD40BA-4972-4FA8-AFCD-075EBABEF913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030DF833-BF27-40C7-B9CB-A0A74E5E26B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030DF833-BF27-40C7-B9CB-A0A74E5E26B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030DF833-BF27-40C7-B9CB-A0A74E5E26B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030DF833-BF27-40C7-B9CB-A0A74E5E26B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7188D84-4821-470E-8FBD-6D6EABC818AB} = {4446D7BB-6091-45FC-8410-B8629332EE09}
+		{598BF894-BA92-4166-A05B-80E94671D837} = {4446D7BB-6091-45FC-8410-B8629332EE09}
+		{CD6E06F3-4ECB-4483-A32A-0E23679E438E} = {F43FDB1D-F9E8-499A-892C-5A47A5E2EDBE}
+		{388DB909-94BD-44AC-BB99-A2C189132396} = {F43FDB1D-F9E8-499A-892C-5A47A5E2EDBE}
+		{21BD40BA-4972-4FA8-AFCD-075EBABEF913} = {388DB909-94BD-44AC-BB99-A2C189132396}
+		{030DF833-BF27-40C7-B9CB-A0A74E5E26B2} = {388DB909-94BD-44AC-BB99-A2C189132396}
+	EndGlobalSection
+EndGlobal
