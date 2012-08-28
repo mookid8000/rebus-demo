@@ -17,6 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kreditbandit.Messages", "Kreditbandit.Messages\Kreditbandit.Messages.csproj", "{030DF833-BF27-40C7-B9CB-A0A74E5E26B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0FFCDC96-B811-441A-8FEC-DEB1C96BC899}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,8 +55,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F7188D84-4821-470E-8FBD-6D6EABC818AB} = {4446D7BB-6091-45FC-8410-B8629332EE09}
 		{598BF894-BA92-4166-A05B-80E94671D837} = {4446D7BB-6091-45FC-8410-B8629332EE09}
+		{F7188D84-4821-470E-8FBD-6D6EABC818AB} = {4446D7BB-6091-45FC-8410-B8629332EE09}
 		{CD6E06F3-4ECB-4483-A32A-0E23679E438E} = {F43FDB1D-F9E8-499A-892C-5A47A5E2EDBE}
 		{388DB909-94BD-44AC-BB99-A2C189132396} = {F43FDB1D-F9E8-499A-892C-5A47A5E2EDBE}
 		{21BD40BA-4972-4FA8-AFCD-075EBABEF913} = {388DB909-94BD-44AC-BB99-A2C189132396}
